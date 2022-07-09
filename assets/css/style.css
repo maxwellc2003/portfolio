@@ -1,6 +1,7 @@
 header {
     padding: 350px 35px;
     background-color: #0d2a2d;
+    display: flex;
   }
   
 header h1 {
@@ -12,7 +13,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: #081a1c;
   }
 
 header nav {
@@ -29,3 +30,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
   }
+#skills-section {
+    display:flex;
+    padding: 20px 0px;
+}

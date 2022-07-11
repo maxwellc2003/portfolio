@@ -1,36 +1,70 @@
-header {
-    padding: 350px 35px;
-    background-color: #0d2a2d;
-    display: flex;
-  }
-  
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    margin: 0;
-    display: inline;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  color: #26767e;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: #092331;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #15cbd8;
+  margin: 0;
+  display: inline;
+}
 header a {
-    text-decoration: none;
-    color: #081a1c;
-  }
+  text-decoration: none;
+  color: #15cbd8;
+}
 
 header nav {
-    float: right top;
-    margin: 7px 0;
-  }
-  
+  float: right;
+  margin: 7px 0;
+}
+
 header nav ul li {
-    display: inline;
-  }
-  
+  display: inline;
+}
+
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
-#skills-section {
-    display:flex;
-    padding: 20px 0px;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.large-picture img{
+  width: 100%;
+}
+
+
+footer {
+  background: #092331;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #15cbd8;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #15cbd8;
 }

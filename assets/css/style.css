@@ -88,4 +88,9 @@ footer a {
 .cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#cards-1 img {
+  min-width: 250px;
 }

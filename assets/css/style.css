@@ -7,6 +7,7 @@
 body {
   color: #26767e;
   font-family: Helvetica, Arial, sans-serif;
+  background-color: #061922;
 }
 
 header {
@@ -69,6 +70,7 @@ footer a {
   color: #15cbd8;
 }
 
+/* nav sections */
 .skills {
   padding: 50px;
 }
@@ -85,12 +87,37 @@ footer a {
   padding: 50px;
 }
 
+/* cards section */
 .cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#cards-1 img {
-  min-width: 250px;
+.cards img {
+  min-width: 350px;
+}
+
+#card-1:hover{
+  transform: scale(1.2);
+}
+
+#card-2:hover{
+  transform: scale(1.2);
+}
+
+#card-3:hover{
+  transform: scale(1.2);
+}
+
+#card-4:hover{
+  transform: scale(1.2);
+}
+
+#card-5:hover{
+  transform: scale(1.2);
+}
+
+#card-6:hover{
+  transform: scale(1.2);
 }

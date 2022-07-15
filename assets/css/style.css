@@ -68,3 +68,24 @@ footer div {
 footer a {
   color: #15cbd8;
 }
+
+.skills {
+  padding: 50px;
+}
+
+.projects {
+  padding: 50px;
+}
+
+.about-me {
+  padding: 50px;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}

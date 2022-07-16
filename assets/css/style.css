@@ -95,7 +95,7 @@ footer a {
 }
 
 .cards img {
-  min-width: 350px;
+  max-width: 350px;
 }
 
 #card-1:hover{
